@@ -1,0 +1,566 @@
+[2018-11-16T00:04:55.475] [ERROR] err - TypeError: This library (validator.js) validates strings only
+    at assertString (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\util\assertString.js:11:11)
+    at ltrim (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\ltrim.js:15:30)
+    at Object.trim (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\trim.js:19:51)
+    at login (D:\ManyKitHost\trunk\manykit\routes\func.js:297:38)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+[2018-11-16T01:04:17.838] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:764:28)
+    at D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:772:23
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-11-16T05:22:22.399] [ERROR] err - TypeError: This library (validator.js) validates strings only
+    at assertString (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\util\assertString.js:11:11)
+    at ltrim (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\ltrim.js:15:30)
+    at Object.trim (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\trim.js:19:51)
+    at login (D:\ManyKitHost\trunk\manykit\routes\func.js:297:38)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+[2018-11-16T06:25:17.147] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:764:28)
+    at D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:772:23
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-11-16T07:16:15.404] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:764:28)
+    at D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:772:23
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-11-16T07:29:26.473] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-11-16T07:32:19.194] [ERROR] err - TypeError: This library (validator.js) validates strings only
+    at assertString (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\util\assertString.js:11:11)
+    at ltrim (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\ltrim.js:15:30)
+    at Object.trim (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\trim.js:19:51)
+    at checkcode (D:\ManyKitHost\trunk\manykit\routes\func.js:648:34)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+[2018-11-16T08:38:36.354] [ERROR] err - TypeError: This library (validator.js) validates strings only
+    at assertString (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\util\assertString.js:11:11)
+    at ltrim (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\ltrim.js:15:30)
+    at Object.trim (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\trim.js:19:51)
+    at getverifycode (D:\ManyKitHost\trunk\manykit\routes\func.js:606:34)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+[2018-11-16T09:56:18.344] [ERROR] err - TypeError: This library (validator.js) validates strings only
+    at assertString (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\util\assertString.js:11:11)
+    at ltrim (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\ltrim.js:15:30)
+    at Object.trim (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\trim.js:19:51)
+    at login (D:\ManyKitHost\trunk\manykit\routes\func.js:297:38)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+[2018-11-16T14:08:41.518] [ERROR] err - TypeError: This library (validator.js) validates strings only
+    at assertString (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\util\assertString.js:11:11)
+    at ltrim (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\ltrim.js:15:30)
+    at Object.trim (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\trim.js:19:51)
+    at login (D:\ManyKitHost\trunk\manykit\routes\func.js:297:38)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+[2018-11-16T14:42:24.970] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-11-16T14:55:28.405] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-11-16T15:37:56.041] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at upload (D:\ManyKitHost\trunk\manykit\routes\func.js:1238:36)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\route.js:137:13)
+    at multerMiddleware (D:\ManyKitHost\trunk\manykit\node_modules\multer\lib\make-middleware.js:18:41)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+[2018-11-16T15:40:07.422] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at upload (D:\ManyKitHost\trunk\manykit\routes\func.js:1259:36)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\route.js:137:13)
+    at multerMiddleware (D:\ManyKitHost\trunk\manykit\node_modules\multer\lib\make-middleware.js:18:41)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+[2018-11-16T15:40:58.892] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at upload (D:\ManyKitHost\trunk\manykit\routes\func.js:1259:36)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\route.js:137:13)
+    at multerMiddleware (D:\ManyKitHost\trunk\manykit\node_modules\multer\lib\make-middleware.js:18:41)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+[2018-11-16T15:43:11.433] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1674:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-11-16T15:43:13.992] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1674:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-11-16T15:43:16.224] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1674:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-11-16T15:43:19.174] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1674:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-11-16T15:43:20.410] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1674:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-11-16T15:43:23.240] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1674:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-11-16T15:43:24.334] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1674:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-11-16T15:43:29.019] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1674:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-11-16T15:43:31.377] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1674:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-11-16T15:43:35.194] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1674:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-11-16T15:43:43.418] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1674:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-11-16T15:44:54.669] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1674:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-11-16T15:44:54.736] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1674:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-11-16T16:25:54.554] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-11-16T16:26:51.481] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-11-16T16:26:59.838] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-11-16T16:27:04.747] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-11-16T16:27:07.271] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-11-16T16:56:25.227] [ERROR] err - TypeError: This library (validator.js) validates strings only
+    at assertString (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\util\assertString.js:11:11)
+    at ltrim (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\ltrim.js:15:30)
+    at Object.trim (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\trim.js:19:51)
+    at signup (D:\ManyKitHost\trunk\manykit\routes\func.js:123:34)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+[2018-11-16T17:12:00.658] [ERROR] err - TypeError: Cannot read property 'toString' of null
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1553:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-11-16T17:33:50.602] [ERROR] err - TypeError: Cannot read property 'toString' of null
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1553:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-11-16T17:34:07.287] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express-session\index.js:489:7
+    at Command.callback (D:\ManyKitHost\trunk\manykit\node_modules\connect-redis\lib\connect-redis.js:167:14)
+    at normal_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:726:21)
+    at RedisClient.return_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:824:9) status: 404 }
+[2018-11-16T17:34:13.205] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express-session\index.js:489:7
+    at Command.callback (D:\ManyKitHost\trunk\manykit\node_modules\connect-redis\lib\connect-redis.js:167:14)
+    at normal_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:726:21)
+    at RedisClient.return_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:824:9) status: 404 }
+[2018-11-16T17:34:34.057] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express-session\index.js:489:7
+    at Command.callback (D:\ManyKitHost\trunk\manykit\node_modules\connect-redis\lib\connect-redis.js:167:14)
+    at normal_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:726:21)
+    at RedisClient.return_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:824:9) status: 404 }
+[2018-11-16T17:34:35.482] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express-session\index.js:489:7
+    at Command.callback (D:\ManyKitHost\trunk\manykit\node_modules\connect-redis\lib\connect-redis.js:167:14)
+    at normal_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:726:21)
+    at RedisClient.return_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:824:9) status: 404 }
+[2018-11-16T19:12:44.506] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:764:28)
+    at D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:772:23
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-11-16T20:04:38.860] [ERROR] err - TypeError: This library (validator.js) validates strings only
+    at assertString (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\util\assertString.js:11:11)
+    at ltrim (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\ltrim.js:15:30)
+    at Object.trim (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\trim.js:19:51)
+    at login (D:\ManyKitHost\trunk\manykit\routes\func.js:297:38)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+[2018-11-16T21:02:33.843] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-11-16T22:32:27.533] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-11-16T23:35:17.935] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }

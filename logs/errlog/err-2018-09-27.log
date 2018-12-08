@@ -1,0 +1,551 @@
+[2018-09-27T08:03:37.128] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:764:28)
+    at D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:772:23
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-09-27T12:06:02.752] [ERROR] err - ReferenceError: userid is not defined
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:585:6)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-09-27T12:06:02.762] [ERROR] err - ReferenceError: userid is not defined
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:585:6)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-09-27T12:06:12.677] [ERROR] err - ReferenceError: userid is not defined
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:585:6)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-09-27T12:07:30.732] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-09-27T12:12:24.862] [ERROR] err - ReferenceError: userid is not defined
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:585:6)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-09-27T12:12:24.868] [ERROR] err - ReferenceError: userid is not defined
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:585:6)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-09-27T12:16:32.104] [ERROR] err - ReferenceError: userid is not defined
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:585:6)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-09-27T12:21:40.046] [ERROR] err - ReferenceError: userid is not defined
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:585:6)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-09-27T13:03:09.881] [ERROR] err - ReferenceError: userid is not defined
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:585:6)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-09-27T13:44:45.358] [ERROR] err - SyntaxError: Identifier 'openid' has already been declared
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:89:10)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express-session\index.js:489:7
+    at Command.callback (D:\ManyKitHost\trunk\manykit\node_modules\connect-redis\lib\connect-redis.js:167:14)
+    at normal_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:726:21)
+    at RedisClient.return_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:824:9)
+    at JavascriptRedisParser.returnReply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:192:18)
+[2018-09-27T13:44:45.366] [ERROR] err - SyntaxError: Identifier 'openid' has already been declared
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:89:10)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express-session\index.js:489:7
+    at Command.callback (D:\ManyKitHost\trunk\manykit\node_modules\connect-redis\lib\connect-redis.js:167:14)
+    at normal_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:726:21)
+    at RedisClient.return_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:824:9)
+    at JavascriptRedisParser.returnReply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:192:18)
+[2018-09-27T13:45:01.113] [ERROR] err - SyntaxError: Identifier 'openid' has already been declared
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:89:10)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express-session\index.js:489:7
+    at Command.callback (D:\ManyKitHost\trunk\manykit\node_modules\connect-redis\lib\connect-redis.js:167:14)
+    at normal_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:726:21)
+    at RedisClient.return_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:824:9)
+    at JavascriptRedisParser.returnReply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:192:18)
+[2018-09-27T13:46:44.765] [ERROR] err - SyntaxError: Identifier 'openid' has already been declared
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:89:10)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express-session\index.js:489:7
+    at Command.callback (D:\ManyKitHost\trunk\manykit\node_modules\connect-redis\lib\connect-redis.js:167:14)
+    at normal_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:726:21)
+    at RedisClient.return_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:824:9)
+    at JavascriptRedisParser.returnReply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:192:18)
+[2018-09-27T13:46:44.767] [ERROR] err - SyntaxError: Identifier 'openid' has already been declared
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:89:10)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express-session\index.js:489:7
+    at Command.callback (D:\ManyKitHost\trunk\manykit\node_modules\connect-redis\lib\connect-redis.js:167:14)
+    at normal_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:726:21)
+    at RedisClient.return_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:824:9)
+    at JavascriptRedisParser.returnReply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:192:18)
+[2018-09-27T13:46:55.517] [ERROR] err - SyntaxError: Identifier 'openid' has already been declared
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:89:10)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express-session\index.js:489:7
+    at Command.callback (D:\ManyKitHost\trunk\manykit\node_modules\connect-redis\lib\connect-redis.js:167:14)
+    at normal_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:726:21)
+    at RedisClient.return_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:824:9)
+    at JavascriptRedisParser.returnReply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:192:18)
+[2018-09-27T13:46:55.518] [ERROR] err - SyntaxError: Identifier 'openid' has already been declared
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:89:10)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express-session\index.js:489:7
+    at Command.callback (D:\ManyKitHost\trunk\manykit\node_modules\connect-redis\lib\connect-redis.js:167:14)
+    at normal_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:726:21)
+    at RedisClient.return_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:824:9)
+    at JavascriptRedisParser.returnReply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:192:18)
+[2018-09-27T13:47:03.298] [ERROR] err - SyntaxError: Identifier 'openid' has already been declared
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:89:10)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express-session\index.js:489:7
+    at Command.callback (D:\ManyKitHost\trunk\manykit\node_modules\connect-redis\lib\connect-redis.js:167:14)
+    at normal_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:726:21)
+    at RedisClient.return_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:824:9)
+    at JavascriptRedisParser.returnReply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:192:18)
+[2018-09-27T13:47:03.310] [ERROR] err - SyntaxError: Identifier 'openid' has already been declared
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:89:10)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express-session\index.js:489:7
+    at Command.callback (D:\ManyKitHost\trunk\manykit\node_modules\connect-redis\lib\connect-redis.js:167:14)
+    at normal_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:726:21)
+    at RedisClient.return_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:824:9)
+    at JavascriptRedisParser.returnReply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:192:18)
+[2018-09-27T13:47:18.711] [ERROR] err - SyntaxError: Identifier 'openid' has already been declared
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:89:10)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express-session\index.js:489:7
+    at Command.callback (D:\ManyKitHost\trunk\manykit\node_modules\connect-redis\lib\connect-redis.js:167:14)
+    at normal_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:726:21)
+    at RedisClient.return_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:824:9)
+    at JavascriptRedisParser.returnReply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:192:18)
+[2018-09-27T13:48:22.629] [ERROR] err - SyntaxError: Identifier 'openid' has already been declared
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:89:10)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express-session\index.js:489:7
+    at Command.callback (D:\ManyKitHost\trunk\manykit\node_modules\connect-redis\lib\connect-redis.js:167:14)
+    at normal_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:726:21)
+    at RedisClient.return_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:824:9)
+    at JavascriptRedisParser.returnReply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:192:18)
+[2018-09-27T13:48:22.630] [ERROR] err - SyntaxError: Identifier 'openid' has already been declared
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:89:10)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express-session\index.js:489:7
+    at Command.callback (D:\ManyKitHost\trunk\manykit\node_modules\connect-redis\lib\connect-redis.js:167:14)
+    at normal_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:726:21)
+    at RedisClient.return_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:824:9)
+    at JavascriptRedisParser.returnReply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:192:18)
+[2018-09-27T13:48:42.103] [ERROR] err - SyntaxError: Identifier 'openid' has already been declared
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:89:10)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express-session\index.js:489:7
+    at Command.callback (D:\ManyKitHost\trunk\manykit\node_modules\connect-redis\lib\connect-redis.js:167:14)
+    at normal_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:726:21)
+    at RedisClient.return_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:824:9)
+    at JavascriptRedisParser.returnReply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:192:18)
+[2018-09-27T13:48:42.106] [ERROR] err - SyntaxError: Identifier 'openid' has already been declared
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:89:10)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express-session\index.js:489:7
+    at Command.callback (D:\ManyKitHost\trunk\manykit\node_modules\connect-redis\lib\connect-redis.js:167:14)
+    at normal_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:726:21)
+    at RedisClient.return_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:824:9)
+    at JavascriptRedisParser.returnReply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:192:18)
+[2018-09-27T13:48:42.113] [ERROR] err - SyntaxError: Identifier 'openid' has already been declared
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:89:10)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express-session\index.js:489:7
+    at Command.callback (D:\ManyKitHost\trunk\manykit\node_modules\connect-redis\lib\connect-redis.js:167:14)
+    at normal_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:726:21)
+    at RedisClient.return_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:824:9)
+    at JavascriptRedisParser.returnReply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:192:18)
+[2018-09-27T13:50:58.844] [ERROR] err - ReferenceError: isband is not defined
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:602:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-09-27T14:11:51.002] [ERROR] err - ReferenceError: isband is not defined
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:602:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-09-27T14:45:25.889] [ERROR] err - ReferenceError: isband is not defined
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:602:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-09-27T16:16:20.655] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.append (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:691:15)
+    at ServerResponse.res.cookie (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:816:8)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:573:12)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-09-27T16:16:22.716] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.append (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:691:15)
+    at ServerResponse.res.cookie (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:816:8)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:573:12)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-09-27T16:16:23.417] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.append (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:691:15)
+    at ServerResponse.res.cookie (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:816:8)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:573:12)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-09-27T16:17:09.096] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.append (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:691:15)
+    at ServerResponse.res.cookie (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:816:8)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:573:12)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-09-27T16:17:09.098] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.append (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:691:15)
+    at ServerResponse.res.cookie (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:816:8)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:573:12)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-09-27T16:17:09.099] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.append (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:691:15)
+    at ServerResponse.res.cookie (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:816:8)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:573:12)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-09-27T16:17:09.107] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.append (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:691:15)
+    at ServerResponse.res.cookie (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:816:8)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:617:13)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-09-27T17:13:29.393] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:246:48)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-09-27T17:41:01.606] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:246:48)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-09-27T18:00:53.072] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:246:48)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-09-27T18:12:59.500] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:246:48)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-09-27T18:17:12.401] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:249:48)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-09-27T18:41:46.904] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:250:48)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-09-27T19:02:17.171] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:727:26)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-09-27T19:10:24.191] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express-session\index.js:489:7
+    at Command.callback (D:\ManyKitHost\trunk\manykit\node_modules\connect-redis\lib\connect-redis.js:155:25)
+    at normal_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:726:21)
+    at RedisClient.return_reply (D:\ManyKitHost\trunk\manykit\node_modules\redis\index.js:824:9) status: 404 }
+[2018-09-27T21:33:09.496] [ERROR] err - TypeError: This library (validator.js) validates strings only
+    at assertString (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\util\assertString.js:11:11)
+    at ltrim (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\ltrim.js:15:30)
+    at Object.trim (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\trim.js:19:51)
+    at login (D:\ManyKitHost\trunk\manykit\routes\func.js:321:38)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+[2018-09-27T22:30:23.690] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-09-27T23:47:37.218] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-09-27T23:52:32.816] [ERROR] err - TypeError: Cannot read property 'substring' of undefined
+    at active (D:\ManyKitHost\trunk\manykit\routes\func.js:290:32)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+    at FSReqWrap.oncomplete (fs.js:152:21)

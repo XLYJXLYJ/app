@@ -1,0 +1,84 @@
+[2018-10-22T02:18:34.053] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.redirect (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:184:12)
+    at emitTwo (events.js:126:13)
+    at SendStream.emit (events.js:214:7)
+    at SendStream.redirect (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:484:10)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:728:41)
+    at FSReqWrap.oncomplete (fs.js:153:5) status: 404 }
+[2018-10-22T07:16:30.559] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-10-22T13:58:08.163] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:764:28)
+    at D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:772:23
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-10-22T16:35:16.965] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-22T16:35:43.609] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-22T20:30:47.315] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }

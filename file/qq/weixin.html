@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>微信</title>
+</head>
+
+<body>
+    <div id="weixin"></div>
+    <script src="http://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script>
+    <script>
+        var obj = new WxLogin({
+            self_redirect: false,
+            id: "weixin",
+            appid: "wx3f489c60ac73547e",
+            scope: "snsapi_login",
+            redirect_uri: "http://www.manykit.com",
+        });
+    </script>
+</body>
+
+</html>

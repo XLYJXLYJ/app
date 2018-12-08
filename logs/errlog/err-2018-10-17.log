@@ -1,0 +1,2553 @@
+[2018-10-17T00:34:37.062] [ERROR] err - TypeError: This library (validator.js) validates strings only
+    at assertString (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\util\assertString.js:11:11)
+    at ltrim (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\ltrim.js:15:30)
+    at Object.trim (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\trim.js:19:51)
+    at snaplogin (D:\ManyKitHost\trunk\manykit\routes\func.js:428:38)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+[2018-10-17T01:56:51.725] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:764:28)
+    at D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:772:23
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-10-17T03:42:48.660] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-10-17T03:42:48.852] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:727:26)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-10-17T07:25:27.784] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:764:28)
+    at D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:772:23
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-10-17T07:56:10.288] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:764:28)
+    at D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:772:23
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-10-17T10:12:56.170] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:727:26)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-10-17T10:22:45.482] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T10:22:54.012] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T10:24:36.927] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T10:29:32.475] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T10:37:28.400] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T10:50:25.117] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:727:26)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-10-17T10:50:26.136] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:727:26)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-10-17T10:50:26.619] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:727:26)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-10-17T10:50:28.597] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:727:26)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-10-17T15:06:49.706] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:08:31.080] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:08:49.431] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:08:51.901] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:08:54.100] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:09:40.796] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:09:43.204] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:09:47.545] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:10:08.278] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:12:07.747] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:12:09.894] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:12:12.799] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:12:14.770] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:13:41.928] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:13:44.286] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:13:46.869] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:13:48.988] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:14:44.354] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:15:10.533] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:15:18.722] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:15:25.712] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:15:27.793] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:15:48.555] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:15:50.737] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:16:52.567] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:16:58.444] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:19:10.192] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:19:12.269] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:19:14.546] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:19:16.851] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:19:18.789] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:19:20.937] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:19:22.874] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:20:15.214] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:21:04.946] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:21:18.996] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:21:21.442] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:22:59.841] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:23:08.446] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:23:10.431] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:24:45.092] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:26:14.125] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:28:03.520] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:28:07.398] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:28:09.539] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:28:11.431] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:28:13.588] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:28:15.871] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:28:19.662] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:28:21.853] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:28:24.093] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:29:32.773] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:29:35.059] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:29:40.754] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:29:43.075] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:29:45.409] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:30:15.958] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:32:25.662] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:32:44.456] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:32:48.957] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:36:01.933] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:36:04.597] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:36:26.403] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:36:30.140] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:36:33.550] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:37:56.247] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:37:58.680] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:38:00.677] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:39:01.335] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:42:28.401] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:48:37.564] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1744:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:48:50.505] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:48:54.520] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1774:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:49:09.363] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:49:19.428] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:49:28.719] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:49:40.275] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:49:53.476] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:50:19.461] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:50:31.998] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:51:09.034] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1774:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:51:09.370] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:51:18.863] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:52:37.655] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1774:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:52:58.529] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:53:03.612] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:53:05.845] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:54:08.667] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:54:11.409] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:54:27.947] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1774:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:54:28.214] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:54:30.463] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:55:07.884] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:55:10.211] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:55:24.086] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:55:26.472] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:55:49.549] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:55:52.105] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:56:04.803] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:56:07.977] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:56:10.079] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:56:34.409] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:56:41.187] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:56:43.451] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:56:45.988] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:56:50.194] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:56:53.755] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:57:19.071] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1774:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:57:19.326] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:57:21.425] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:57:23.804] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:57:31.205] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:57:33.480] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:58:36.640] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1774:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:58:36.892] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:58:39.183] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:58:42.588] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:58:44.623] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:59:12.468] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1774:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:59:12.708] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:59:14.786] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:59:16.862] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:59:50.740] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:59:53.498] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:59:55.731] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T15:59:59.582] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:00:02.064] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:01:22.328] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:01:28.202] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:01:33.201] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:01:36.452] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:01:38.609] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:01:46.263] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1774:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:01:46.283] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:01:51.932] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1774:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:01:58.860] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1774:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:02:06.965] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1774:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:02:55.659] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:02:57.686] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:03:07.421] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:03:25.579] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:03:29.082] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:03:31.549] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:04:07.869] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:04:39.208] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1774:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:04:39.254] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:06:38.729] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:06:40.886] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:06:44.766] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:06:46.762] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:06:48.777] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:09:58.751] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:10:12.342] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:12:50.299] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:17:18.925] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1774:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:17:29.198] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1774:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:18:24.856] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:18:49.790] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:18:51.978] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:19:43.981] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:21:11.470] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:21:13.729] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:26:03.106] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:26:05.494] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:27:04.037] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:27:21.631] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:27:30.057] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:27:43.610] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:27:56.124] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:28:24.546] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1774:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:28:24.562] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:28:27.067] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1774:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:28:32.413] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1774:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:28:48.793] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:28:50.837] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:29:09.592] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:29:26.455] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:29:31.274] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:29:33.906] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:29:41.966] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1774:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:29:42.000] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:32:26.692] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:33:42.283] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:33:44.604] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1774:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:33:57.150] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:33:59.614] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:34:08.584] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:34:26.702] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:34:28.751] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:34:31.042] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:34:35.626] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:34:43.783] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1774:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:34:43.809] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:34:49.314] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:34:58.538] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:35:00.659] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:36:08.399] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:36:10.441] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:36:25.448] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:36:32.070] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:36:37.878] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:36:50.199] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:37:12.013] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1774:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:37:12.311] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:37:15.742] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:37:17.734] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:37:19.833] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:37:21.747] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:38:18.931] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:38:53.268] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:38:55.204] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:38:58.251] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:39:05.588] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1774:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:39:05.614] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:39:07.665] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:40:17.600] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:41:31.904] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:43:06.320] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:43:10.830] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:43:51.247] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:43:56.256] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:44:29.814] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:44:34.030] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:44:46.451] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:44:49.980] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1774:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:44:50.006] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:44:53.012] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:44:57.425] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:44:59.727] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:45:23.866] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:45:30.599] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:45:35.755] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:45:42.412] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:45:47.273] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1774:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:45:47.532] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:45:50.567] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:46:16.392] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:46:20.396] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:46:22.720] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:46:45.527] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:46:53.299] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:48:10.066] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:48:17.019] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:48:28.113] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:48:31.769] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:48:53.078] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:49:06.664] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1774:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:49:06.728] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:49:10.342] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:49:38.572] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:49:57.276] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:49:59.393] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:50:12.228] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:50:27.896] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:50:36.635] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1774:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:50:36.911] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:50:39.609] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:50:52.267] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:51:04.871] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:51:19.504] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:51:34.749] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:52:31.481] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T16:53:05.351] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:02:26.163] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:02:28.805] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1774:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:02:36.539] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:02:38.434] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:08:27.268] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1776:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:08:27.552] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1742:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:08:32.638] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1742:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:09:05.633] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1742:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:10:28.673] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1742:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:10:31.612] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1742:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:13:16.200] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1776:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:13:16.511] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1742:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:13:19.008] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1742:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:13:36.456] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1776:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:13:36.744] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1742:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:15:16.236] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1775:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:15:19.411] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:15:46.090] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:17:53.176] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1775:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:17:53.498] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:17:56.236] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:18:24.253] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:18:33.056] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1775:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:18:33.337] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:18:36.895] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:19:21.299] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1775:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:19:21.337] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:19:27.331] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:20:11.245] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:20:14.181] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:20:18.135] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1775:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:20:18.397] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:20:20.989] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:20:24.885] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:20:27.048] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:20:29.866] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:20:32.104] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:21:01.118] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1775:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:21:01.487] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:21:09.089] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:22:04.685] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1776:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:22:04.710] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1742:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:22:07.972] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1742:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:23:54.374] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1742:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:24:00.131] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1742:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:24:02.369] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1742:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:24:14.582] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1742:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:24:27.041] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1742:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:34:48.801] [ERROR] err - ReferenceError: data is not defined
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1710:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:34:49.073] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1768:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:34:53.653] [ERROR] err - ReferenceError: data is not defined
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1710:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:38:11.762] [ERROR] err - ReferenceError: resdata is not defined
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1720:13)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:38:32.387] [ERROR] err - ReferenceError: resdata is not defined
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1720:13)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:39:19.923] [ERROR] err - ReferenceError: resData is not defined
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1720:13)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:39:20.343] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1749:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:39:25.212] [ERROR] err - ReferenceError: resData is not defined
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1720:13)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:40:58.086] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1782:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:40:58.393] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1748:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:41:04.186] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1748:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:46:00.748] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1782:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:46:01.048] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1748:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:46:07.564] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1748:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:46:39.691] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1748:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:46:53.691] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1748:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:47:39.860] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1748:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:51:21.011] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1734:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:51:30.294] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1734:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:56:10.674] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1734:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:58:10.959] [ERROR] err - ReferenceError: data is not defined
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1711:31)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:58:11.399] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1740:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T17:58:26.797] [ERROR] err - ReferenceError: data is not defined
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1711:31)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T18:11:52.134] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T18:11:54.901] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1741:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T18:25:35.134] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-10-17T18:26:01.742] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1640:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T18:26:22.079] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1640:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T18:26:37.853] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1640:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T18:32:33.534] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1640:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T18:32:35.833] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1640:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T18:37:18.952] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1640:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T18:37:44.951] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1640:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T18:38:09.329] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1640:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T18:39:02.218] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1640:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T18:41:01.131] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1640:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T18:41:03.546] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1640:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T18:42:04.189] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1640:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T18:43:26.023] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1640:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T18:43:40.302] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1640:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T18:44:20.790] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1640:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T18:44:24.257] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1640:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T18:44:30.409] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1640:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T18:44:51.577] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1640:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T18:45:07.281] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1640:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T18:45:22.440] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1640:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-17T23:30:53.161] [ERROR] err - TypeError: This library (validator.js) validates strings only
+    at assertString (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\util\assertString.js:11:11)
+    at ltrim (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\ltrim.js:15:30)
+    at Object.trim (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\trim.js:19:51)
+    at snaplogin (D:\ManyKitHost\trunk\manykit\routes\func.js:388:38)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+[2018-10-17T23:34:06.905] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }

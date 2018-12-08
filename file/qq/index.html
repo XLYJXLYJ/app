@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>qq登录</title>
+</head>
+
+<body>
+    <span id="qqLoginBtn"></span>
+    <span onclick="quit()">退出</span>
+    <span onclick="login()">登录</span>
+
+    <script type="text/javascript" src="http://qzonestyle.gtimg.cn/qzone/openapi/qc_loader.js" data-appid="101442688" data-redirecturi="http://www.manykit.com/static/qq/qqback.html" charset="utf-8"></script>
+    <script type="text/javascript">
+        var cbLoginFun = function(oInfo, oOpts) {
+            console.log(oInfo);
+            QC.Login.getMe(function(openId, accessToken) {
+                console.log(openId);
+                console.log(accessToken);
+
+            })
+        };
+        var cbLogoutFun = function() {
+            console.log("注销成功!");
+        };
+        var quit = function() {
+            QC.Login.signOut()
+        }
+
+        QC.Login({
+            btnId: "qqLoginBtn" //插入按钮的节点id
+        }, cbLoginFun, cbLogoutFun);
+    </script>
+</body>
+
+</html>

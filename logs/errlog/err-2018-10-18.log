@@ -1,0 +1,1054 @@
+[2018-10-18T02:18:14.540] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-10-18T10:10:12.692] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-10-18T14:04:34.936] [ERROR] err - ReferenceError: base is not defined
+    at upload (D:\ManyKitHost\trunk\manykit\routes\func.js:1236:29)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\route.js:137:13)
+    at multerMiddleware (D:\ManyKitHost\trunk\manykit\node_modules\multer\lib\make-middleware.js:18:41)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+[2018-10-18T14:06:14.372] [ERROR] err - ReferenceError: Base64 is not defined
+    at upload (D:\ManyKitHost\trunk\manykit\routes\func.js:1235:28)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\route.js:137:13)
+    at multerMiddleware (D:\ManyKitHost\trunk\manykit\node_modules\multer\lib\make-middleware.js:18:41)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+[2018-10-18T14:07:00.676] [ERROR] err - ReferenceError: Base64 is not defined
+    at upload (D:\ManyKitHost\trunk\manykit\routes\func.js:1235:28)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\route.js:137:13)
+    at multerMiddleware (D:\ManyKitHost\trunk\manykit\node_modules\multer\lib\make-middleware.js:18:41)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+[2018-10-18T14:07:26.817] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:764:28)
+    at D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:772:23
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-10-18T14:10:04.476] [ERROR] err - ReferenceError: pcontext is not defined
+    at upload (D:\ManyKitHost\trunk\manykit\routes\func.js:1236:27)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\route.js:137:13)
+    at multerMiddleware (D:\ManyKitHost\trunk\manykit\node_modules\multer\lib\make-middleware.js:18:41)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+[2018-10-18T14:17:00.227] [ERROR] err - { Error: Request aborted
+    at onaborted (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:984:15)
+    at Immediate.<anonymous> (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:1026:9)
+    at Immediate.args.(anonymous function) (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\event-loop-inspector\index.js:138:29)
+    at runCallback (timers.js:789:20)
+    at tryOnImmediate (timers.js:751:5)
+    at processImmediate [as _immediateCallback] (timers.js:722:5) code: 'ECONNABORTED' }
+[2018-10-18T14:18:29.381] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1247:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T14:23:15.310] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1249:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T14:35:28.713] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1248:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T14:40:20.858] [ERROR] err - TypeError: Cannot read property 'toString' of null
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1544:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T14:40:24.029] [ERROR] err - TypeError: Cannot read property 'toString' of null
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1544:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T14:47:42.479] [ERROR] err - TypeError: Cannot read property 'toString' of null
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1544:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T14:48:00.432] [ERROR] err - TypeError: Cannot read property 'toString' of null
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1544:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T14:48:00.991] [ERROR] err - TypeError: Cannot read property 'toString' of null
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1544:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T14:48:47.040] [ERROR] err - TypeError: Cannot read property 'toString' of null
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1544:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T14:48:48.029] [ERROR] err - TypeError: Cannot read property 'toString' of null
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1544:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T14:57:21.969] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:727:26)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-10-18T14:58:53.132] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:727:26)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-10-18T14:59:10.112] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:727:26)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-10-18T15:08:36.252] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1248:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T15:31:28.029] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:727:26)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-10-18T15:34:38.823] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1249:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T15:37:08.347] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:727:26)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-10-18T15:44:37.874] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1249:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T15:49:07.164] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T15:52:56.201] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:03:04.459] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:04:12.371] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:11:33.168] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:15:44.480] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:35:44.230] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:37:53.584] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:37:55.681] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:38:43.036] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:38:50.385] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:40:00.256] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:40:14.197] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:40:22.811] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:41:25.217] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:41:31.245] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:47:44.622] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:50:42.671] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:50:47.307] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:50:50.380] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:51:10.754] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:51:14.588] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:51:16.740] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:51:18.941] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:51:21.822] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:51:28.604] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:52:10.967] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:52:29.428] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:52:40.387] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:52:43.204] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:52:45.325] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:53:32.009] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:53:36.762] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:53:39.006] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:53:41.350] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:54:10.328] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:54:45.477] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:55:07.013] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:55:14.464] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:55:18.639] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:55:21.806] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:55:24.842] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:55:27.251] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:55:39.039] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:58:02.992] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:58:17.177] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T16:58:19.214] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T17:40:27.507] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T17:40:39.921] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T17:40:55.675] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T17:41:06.319] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T17:41:22.168] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T17:41:27.228] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T17:41:32.400] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T17:41:52.732] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T17:42:03.338] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T17:42:57.564] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T17:43:26.462] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T17:44:24.469] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T17:45:53.631] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T17:51:27.661] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T17:52:20.973] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1663:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T18:00:47.141] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T18:00:47.443] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T18:00:47.779] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T18:00:53.913] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T18:00:54.358] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T18:00:54.811] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T18:00:56.799] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T18:00:57.257] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T18:00:57.685] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T18:00:58.999] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T18:00:59.416] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T18:00:59.834] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T18:01:00.580] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T18:01:00.985] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T18:01:01.397] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T18:01:02.171] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T18:01:02.563] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T18:01:02.940] [ERROR] err - { Error: Request aborted
+    at onaborted (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:984:15)
+    at Immediate.<anonymous> (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:1026:9)
+    at Immediate.args.(anonymous function) (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\node_modules\event-loop-inspector\index.js:138:29)
+    at runCallback (timers.js:789:20)
+    at tryOnImmediate (timers.js:751:5)
+    at processImmediate [as _immediateCallback] (timers.js:722:5) code: 'ECONNABORTED' }
+[2018-10-18T18:01:03.665] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T18:01:04.082] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T18:01:04.491] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T18:01:05.209] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T18:01:05.589] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T18:01:05.932] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T18:01:06.771] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T18:01:07.138] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T18:01:07.537] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T18:01:08.298] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T18:01:08.625] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T18:01:09.004] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:9:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1251:20)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T19:05:59.083] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1664:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T19:08:32.899] [ERROR] err - TypeError: Cannot read property 'toString' of null
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1547:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-18T22:01:41.630] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-10-18T22:18:02.413] [ERROR] err - TypeError: This library (validator.js) validates strings only
+    at assertString (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\util\assertString.js:11:11)
+    at ltrim (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\ltrim.js:15:30)
+    at Object.trim (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\trim.js:19:51)
+    at login (D:\ManyKitHost\trunk\manykit\routes\func.js:297:38)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)

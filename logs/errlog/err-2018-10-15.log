@@ -1,0 +1,224 @@
+[2018-10-15T11:10:32.874] [ERROR] err - TypeError: Cannot read property 'toString' of undefined
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1614:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-15T11:10:34.391] [ERROR] err - TypeError: Cannot read property 'toString' of undefined
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1614:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-15T11:10:41.929] [ERROR] err - TypeError: Cannot read property 'toString' of undefined
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1614:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-15T11:10:53.203] [ERROR] err - TypeError: Cannot read property 'toString' of undefined
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1614:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-15T11:11:40.480] [ERROR] err - TypeError: Cannot read property 'toString' of undefined
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1614:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-15T11:11:44.861] [ERROR] err - TypeError: Cannot read property 'toString' of undefined
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1614:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-15T11:19:49.337] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-10-15T11:20:11.979] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-10-15T11:44:38.983] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1759:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-15T11:45:27.719] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1726:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-15T11:45:35.277] [ERROR] err - TypeError: Cannot read property 'toString' of null
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1614:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-15T12:08:23.647] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1726:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-15T12:08:33.100] [ERROR] err - Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:730:10)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:256:15)
+    at ServerResponse.send (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\response.js:158:21)
+    at Object.success (D:\ManyKitHost\trunk\manykit\common\responseResult.js:4:24)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1759:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-15T12:08:36.705] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1726:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-15T12:08:40.468] [ERROR] err - TypeError: Cannot read property 'toString' of null
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1614:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-15T12:14:39.838] [ERROR] err - TypeError: Cannot read property 'toString' of null
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1614:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-15T12:14:48.534] [ERROR] err - TypeError: Cannot read property 'toString' of null
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1614:43)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-15T13:58:08.884] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1726:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-15T14:07:43.835] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1726:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-15T14:20:09.091] [ERROR] err - TypeError: Cannot read property 'length' of undefined
+    at writeOrBuffer (_stream_writable.js:348:42)
+    at WriteStream.Writable.write (_stream_writable.js:290:11)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1726:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-15T14:33:39.933] [ERROR] err - ReferenceError: projectData is not defined
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1601:36)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-15T14:43:03.331] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-10-15T15:22:40.407] [ERROR] err - ReferenceError: projectData is not defined
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1601:36)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-15T15:35:51.610] [ERROR] err - ReferenceError: projectData is not defined
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1601:36)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-15T15:39:04.153] [ERROR] err - ReferenceError: projectData is not defined
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1601:36)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-15T16:03:51.146] [ERROR] err - TypeError: May not write null values to stream
+    at validChunk (_stream_writable.js:250:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1731:41)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-15T16:57:00.203] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-10-15T17:07:05.181] [ERROR] err - ReferenceError: projectData is not defined
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1613:37)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-15T17:09:49.631] [ERROR] err - ReferenceError: projectData is not defined
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1613:37)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-15T17:09:53.382] [ERROR] err - ReferenceError: projectData is not defined
+    at publicSql.then (D:\ManyKitHost\trunk\manykit\routes\func.js:1613:37)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[2018-10-15T18:36:31.341] [ERROR] err - { Error: Not Found
+    at D:\ManyKitHost\trunk\manykit\app.js:308:15
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:764:28)
+    at D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:772:23
+    at FSReqWrap.oncomplete (fs.js:152:21) status: 404 }
+[2018-10-15T19:26:08.266] [ERROR] err - TypeError: This library (validator.js) validates strings only
+    at assertString (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\util\assertString.js:11:11)
+    at ltrim (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\ltrim.js:15:30)
+    at Object.trim (D:\ManyKitHost\trunk\manykit\node_modules\validator\lib\trim.js:19:51)
+    at snaplogin (D:\ManyKitHost\trunk\manykit\routes\func.js:428:38)
+    at Layer.handle [as handle_request] (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:317:13)
+    at D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:426:12)
+    at next (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:736:16)
+    at onstat (D:\ManyKitHost\trunk\manykit\node_modules\send\index.js:725:14)
